@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="449a25da-0188-4b85-8a2a-7573a21dc23f" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:9090/metadatauri" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="metadatauri.xsd" MetadataType="Schema" ID="35dc3f4a-d918-4e0a-b1cf-707a8f8d0ad6" SourceId="1" SourceUrl="http://localhost:9090/metadatauri?xsd=xsd0" />
+    <MetadataFile FileName="metadatauri.disco" MetadataType="Disco" ID="4b238f94-fb76-43e6-b5c7-d8ad2005eb8a" SourceId="1" SourceUrl="http://localhost:9090/metadatauri?disco" />
+    <MetadataFile FileName="metadatauri1.xsd" MetadataType="Schema" ID="36f5f003-2f3b-4598-9a1b-1ad56a5e6989" SourceId="1" SourceUrl="http://localhost:9090/metadatauri?xsd=xsd1" />
+    <MetadataFile FileName="HelloService.wsdl" MetadataType="Wsdl" ID="4359a3bf-f15a-4ce0-816a-bd33d92388eb" SourceId="1" SourceUrl="http://localhost:9090/metadatauri?wsdl" />
+    <MetadataFile FileName="metadatauri.wsdl" MetadataType="Wsdl" ID="9993f006-2416-4bb2-be39-5d9ba2c34a56" SourceId="1" SourceUrl="http://localhost:9090/metadatauri?wsdl=wsdl0" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleWCFAsyncService", "SimpleWCFAsyncService\SimpleWCFAsyncService.csproj", "{B353DCDC-D3FD-4249-8CC0-D992F27C5367}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Host", "Host\Host.csproj", "{77C80D77-7339-40A7-9C1C-1AA345469895}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Client1", "Client1\Client1.csproj", "{F1468AB4-AC42-4241-8161-B359A3118274}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{77C80D77-7339-40A7-9C1C-1AA345469895}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{77C80D77-7339-40A7-9C1C-1AA345469895}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{77C80D77-7339-40A7-9C1C-1AA345469895}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{77C80D77-7339-40A7-9C1C-1AA345469895}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B353DCDC-D3FD-4249-8CC0-D992F27C5367}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B353DCDC-D3FD-4249-8CC0-D992F27C5367}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B353DCDC-D3FD-4249-8CC0-D992F27C5367}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B353DCDC-D3FD-4249-8CC0-D992F27C5367}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F1468AB4-AC42-4241-8161-B359A3118274}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F1468AB4-AC42-4241-8161-B359A3118274}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F1468AB4-AC42-4241-8161-B359A3118274}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F1468AB4-AC42-4241-8161-B359A3118274}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

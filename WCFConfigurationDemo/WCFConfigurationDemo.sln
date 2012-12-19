@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelloWCFService", "HelloWCFService\HelloWCFService.csproj", "{A9A6F5D8-49E7-4C9E-B300-DD5EE92A5EC1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Host", "Host\Host.csproj", "{5D369794-757F-4CCE-9F0C-218FD218DE22}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Client1", "Client1\Client1.csproj", "{665E43D5-4754-4F4D-9A59-27A59232FC0D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5D369794-757F-4CCE-9F0C-218FD218DE22}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5D369794-757F-4CCE-9F0C-218FD218DE22}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5D369794-757F-4CCE-9F0C-218FD218DE22}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5D369794-757F-4CCE-9F0C-218FD218DE22}.Release|Any CPU.Build.0 = Release|Any CPU
+		{665E43D5-4754-4F4D-9A59-27A59232FC0D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{665E43D5-4754-4F4D-9A59-27A59232FC0D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{665E43D5-4754-4F4D-9A59-27A59232FC0D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{665E43D5-4754-4F4D-9A59-27A59232FC0D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A9A6F5D8-49E7-4C9E-B300-DD5EE92A5EC1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A9A6F5D8-49E7-4C9E-B300-DD5EE92A5EC1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A9A6F5D8-49E7-4C9E-B300-DD5EE92A5EC1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A9A6F5D8-49E7-4C9E-B300-DD5EE92A5EC1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
